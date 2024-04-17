@@ -8,9 +8,10 @@ import {
     PanResponder,
     StyleSheet,
     TouchableOpacity,
-    ViewPropTypes,
     View,
 } from 'react-native';
+
+import {ViewPropTypes} from 'deprecated-react-native-prop-types';
 
 const DEFAULT_PREVIEW_OPEN_DELAY = 700;
 const PREVIEW_CLOSE_DELAY = 300;

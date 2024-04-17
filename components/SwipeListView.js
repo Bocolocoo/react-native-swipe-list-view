@@ -7,8 +7,9 @@ import {
     FlatList,
     Platform,
     SectionList,
-    ViewPropTypes,
 } from 'react-native';
+
+import {ViewPropTypes} from 'deprecated-react-native-prop-types';
 
 import SwipeRow from './SwipeRow';
 
